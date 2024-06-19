@@ -5,7 +5,7 @@
   <classpathentry kind="src" path="src/main/resources" including="plugin.yml" excluding="**/*.java"/>
   <classpathentry kind="output" path="target/classes"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-  <classpathentry kind="var" path="M2_REPO/org/spigotmc/spigot-api/1.21-R0.1-SNAPSHOT/spigot-api-1.21-R0.1-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/spigotmc/spigot-api/1.21-R0.1-SNAPSHOT/spigot-api-1.21-R0.1-SNAPSHOT.jar" sourcepath="M2_REPO/org/spigotmc/spigot-api/1.21-R0.1-SNAPSHOT/spigot-api-1.21-R0.1-SNAPSHOT-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
@@ -17,4 +17,8 @@
   <classpathentry kind="var" path="M2_REPO/org/joml/joml/1.10.5/joml-1.10.5.jar"/>
   <classpathentry kind="var" path="M2_REPO/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.11/commons-codec-1.11.jar"/>
 </classpath>
