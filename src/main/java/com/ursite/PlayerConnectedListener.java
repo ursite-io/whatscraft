@@ -38,9 +38,9 @@ public class PlayerConnectedListener implements Listener {
                String json = gson.toJson(username);
                StringEntity body = new StringEntity(json);
 
-               System.out.println(json);
+               // System.out.println(json);
 
-               HttpPost request = new HttpPost("http://localhost:3000/dev/whatscraft/sendMessage");
+               HttpPost request = new HttpPost("http://127.0.0.1:3000/dev/whatscraft/sendMessage");
                request.setEntity(body);
                request.addHeader("Accept", "application/json");
                request.setHeader("Content-type", "application/json");
@@ -49,13 +49,12 @@ public class PlayerConnectedListener implements Listener {
                     HttpEntity entity = response.getEntity();
                     if (entity != null) {
                          String result = EntityUtils.toString(entity);
-                         System.out.println(result);
+                         // System.out.println(result);
                     }
                }
 
           } catch (Exception e) {
                e.printStackTrace();
           }
-
      }
 }
