@@ -1,5 +1,11 @@
-main: com.ursite.App
 name: whatscraft
+version: 0.0.2
+main: com.ursite.App
 author: ursite
 description: WhatsCraft
-version: 0.1
+api-version: 1.21
+commands:
+  whatscraft:
+    description: Sends an WhatsApp message
+    usage: /whatscraft <message>
+    permission: myplugin.whatscraft
